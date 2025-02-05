@@ -2,8 +2,16 @@ import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
   return (
-    <div className="bg-secondary/30">
-      <div className="container-custom py-20 md:py-32">
+    <div 
+      className="bg-secondary/30 relative"
+      style={{
+        backgroundImage: 'url("https://images.unsplash.com/photo-1721322800607-8c38375eef04")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+    >
+      <div className="absolute inset-0 bg-white/80"></div>
+      <div className="container-custom py-20 md:py-32 relative">
         <div className="max-w-2xl">
           <h1 className="text-4xl md:text-6xl font-serif font-medium mb-6">
             Natural Freshness for Your Home

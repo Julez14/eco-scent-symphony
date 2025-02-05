@@ -15,6 +15,7 @@ export const ProductCard = ({ name, description, price, image }: ProductCardProp
           src={image}
           alt={name}
           className="h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
+          loading="lazy"
         />
       </div>
       <h3 className="font-serif text-lg mb-2">{name}</h3>

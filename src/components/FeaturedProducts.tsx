@@ -6,19 +6,19 @@ export const FeaturedProducts = () => {
       name: "Wall Plug Diffuser",
       description: "Premium refillable air freshener with natural ingredients",
       price: "$29.99",
-      image: "/placeholder.svg",
+      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901",
     },
     {
       name: "Lavender Dreams Refill",
       description: "100ml natural scent liquid refill",
       price: "$19.99",
-      image: "/placeholder.svg",
+      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07",
     },
     {
       name: "Fresh Linen Refill",
       description: "100ml natural scent liquid refill",
       price: "$19.99",
-      image: "/placeholder.svg",
+      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
     },
   ];
 
